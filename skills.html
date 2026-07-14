@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills | Trilochan Landekar</title>
+    <meta name="description" content="Explore the technical skill sets of Trilochan Landekar, including Frontend (React.js, Javascript), Backend (Java, Spring Boot), and Databases (MySQL).">
+    <meta name="keywords" content="Trilochan Landekar, Skills, Technical Skills, Java, React, Spring Boot, MySQL, Web Developer">
+    <meta name="author" content="Trilochan Landekar">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+    <!-- Particle Background Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="header-container container">
+            <a href="index.html" class="logo" id="header-logo">
+                <span class="logo-accent">&lt;</span>Trilochan<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-secondary nav-cta">Hire Me</a>
+                <!-- Mobile Menu Button -->
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation Menu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12" id="line-mid"></line>
+                        <line x1="3" y1="6" x2="21" y2="6" id="line-top"></line>
+                        <line x1="3" y1="18" x2="21" y2="18" id="line-bot"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section reveal revealed">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">What I Work With</span>
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Frontend -->
+                    <div class="skills-category-card glass-card">
+                        <div class="category-header">
+                            <div class="category-icon text-cyan">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                            </div>
+                            <h3>Frontend</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">CSS3</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript (ES6+)</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">React.js</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Bootstrap</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Responsive Design</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skills-category-card glass-card">
+                        <div class="category-header">
+                            <div class="category-icon text-purple">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                            </div>
+                            <h3>Backend</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Spring Boot</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">JDBC</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">Servlets</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Database -->
+                    <div class="skills-category-card glass-card">
+                        <div class="category-header">
+                            <div class="category-icon text-pink">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path><path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path></svg>
+                            </div>
+                            <h3>Database</h3>
+                        </div>
+                        <ul class="skills-list">
+                            <li>
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Tools -->
+                    <div class="skills-category-card glass-card">
+                        <div class="category-header">
+                            <div class="category-icon text-yellow">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                            </div>
+                            <h3>Tools</h3>
+                        </div>
+                        <ul class="skills-list flex-row-wrap">
+                            <li class="tag-skill">Git</li>
+                            <li class="tag-skill">GitHub</li>
+                            <li class="tag-skill">VS Code</li>
+                            <li class="tag-skill">Eclipse</li>
+                            <li class="tag-skill">Postman</li>
+                            <li class="tag-skill">Vite</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-accent">&lt;</span>Trilochan<span class="logo-accent">/&gt;</span>
+            </a>
+            <p class="footer-thankyou">Thank you for visiting my portfolio.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="sep">•</span>
+                <a href="https://www.linkedin.com/in/trilochan-landekar-06226638b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <span class="sep">•</span>
+                <a href="https://www.instagram.com/tril.ochan97?igsh=cmVsM2xwaGZpc2F2" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+            <div class="footer-meta">
+                <p>Made with <span class="heart-pulse">❤️</span> by Trilochan Landekar</p>
+                <p class="copyright">© 2026 All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn hidden" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- JavaScript script file -->
+    <script src="script.js?v=1.0.2"></script>
+</body>
+</html>

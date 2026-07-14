@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Trilochan Landekar</title>
+    <meta name="description" content="Learn more about Trilochan Landekar, a Full Stack Developer specializing in React.js, Java, Spring Boot, and MySQL. Learn about my education and achievements.">
+    <meta name="keywords" content="Trilochan Landekar, About Me, Computer Engineering, Education, Achievements, Full Stack Developer">
+    <meta name="author" content="Trilochan Landekar">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+    <!-- Particle Background Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="header-container container">
+            <a href="index.html" class="logo" id="header-logo">
+                <span class="logo-accent">&lt;</span>Trilochan<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-secondary nav-cta">Hire Me</a>
+                <!-- Mobile Menu Button -->
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation Menu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12" id="line-mid"></line>
+                        <line x1="3" y1="6" x2="21" y2="6" id="line-top"></line>
+                        <line x1="3" y1="18" x2="21" y2="18" id="line-bot"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="section about-section reveal revealed">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get To Know Me</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="header-line"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-card-visual">
+                        <div class="glass-card visual-inner">
+                            <div class="tech-icon-circle"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg></div>
+                            <h3>Full Stack Mindset</h3>
+                            <p>Bridging the gap between sleek, responsive frontend designs and robust, scalable backend architectures.</p>
+                            
+                            <div class="visual-stats">
+                                <div class="stat-box">
+                                    <span class="stat-number">4+</span>
+                                    <span class="stat-label">Projects</span>
+                                </div>
+                                <div class="stat-box">
+                                    <span class="stat-number">1</span>
+                                    <span class="stat-label">Internship</span>
+                                </div>
+                                <div class="stat-box">
+                                    <span class="stat-number">100%</span>
+                                    <span class="stat-label">Committed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content">
+                        <p class="lead">Hello! I'm Trilochan Landekar, a passionate Computer Engineering student and Full Stack Developer.</p>
+                        <p>I have experience in building responsive web applications using HTML, CSS, JavaScript, React, Java, Spring Boot, and MySQL. I enjoy solving real-world problems through technology and continuously improving my development skills. I am always eager to learn new technologies and contribute to innovative projects.</p>
+                        <p>My goal is to become a skilled Software Engineer and build high-quality applications that create a positive, lasting impact.</p>
+                        
+                        <div class="about-info-grid">
+                            <div class="info-item">
+                                <span class="info-title">Role:</span>
+                                <span class="info-value">Full Stack Developer Intern</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Location:</span>
+                                <span class="info-value">Maharashtra, India</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Degree:</span>
+                                <span class="info-value">Diploma in Computer Engineering</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-title">Status:</span>
+                                <span class="info-value">Open to Roles</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Achievements Section -->
+        <section id="education" class="section education-section reveal revealed">
+            <div class="container">
+                <div class="edu-ach-grid">
+                    <!-- Left: Education & Certificates -->
+                    <div class="edu-column">
+                        <div class="section-header align-left">
+                            <span class="section-subtitle">Qualifications</span>
+                            <h2 class="section-title">Education</h2>
+                            <div class="header-line"></div>
+                        </div>
+
+                        <div class="edu-card glass-card">
+                            <div class="edu-card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+                            </div>
+                            <h3>Diploma in Computer Engineering</h3>
+                            <p class="edu-meta">Currently pursuing • Specializing in Software Engineering</p>
+                            <p class="edu-desc">
+                                Pursuing a deep foundation in Computer Engineering with strong interest and practical execution in Full Stack Development, Web Development, and Artificial Intelligence integration.
+                            </p>
+                        </div>
+
+                        <div class="cert-wrapper">
+                            <h3 class="subsection-title">Certificates</h3>
+                            <div class="certs-grid">
+                                <div class="cert-badge-card">
+                                    <div class="cert-icon-mini">🌐</div>
+                                    <span>HTML & CSS</span>
+                                </div>
+                                <div class="cert-badge-card">
+                                    <div class="cert-icon-mini">⚡</div>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="cert-badge-card">
+                                    <div class="cert-icon-mini">⚛️</div>
+                                    <span>React.js</span>
+                                </div>
+                                <div class="cert-badge-card">
+                                    <div class="cert-icon-mini">☕</div>
+                                    <span>Java Programming</span>
+                                </div>
+                                <div class="cert-badge-card">
+                                    <div class="cert-icon-mini">🍃</div>
+                                    <span>Spring Boot</span>
+                                </div>
+                                <div class="cert-badge-card">
+                                    <div class="cert-icon-mini">⚙️</div>
+                                    <span>Full Stack Dev</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Achievements -->
+                    <div class="ach-column">
+                        <div class="section-header align-left">
+                            <span class="section-subtitle">Track Record</span>
+                            <h2 class="section-title">Achievements</h2>
+                            <div class="header-line"></div>
+                        </div>
+
+                        <div class="ach-list">
+                            <div class="ach-item glass-card">
+                                <div class="ach-num">01</div>
+                                <div class="ach-info">
+                                    <h4>Full Stack Builder</h4>
+                                    <p>Successfully designed and deployed multiple end-to-end Full Stack projects spanning React frontends and Spring Boot/Java backends.</p>
+                                </div>
+                            </div>
+
+                            <div class="ach-item glass-card">
+                                <div class="ach-num">02</div>
+                                <div class="ach-info">
+                                    <h4>AI System Deployment</h4>
+                                    <p>Developed and deployed an automated AI Website Builder project, leveraging Google's Gemini LLM to generate styled structures dynamically.</p>
+                                </div>
+                            </div>
+
+                            <div class="ach-item glass-card">
+                                <div class="ach-num">03</div>
+                                <div class="ach-info">
+                                    <h4>Industry Experience</h4>
+                                    <p>Completed a comprehensive Full Stack Development Internship at MBIG Company, collaborating on production codebase components.</p>
+                                </div>
+                            </div>
+
+                            <div class="ach-item glass-card">
+                                <div class="ach-num">04</div>
+                                <div class="ach-info">
+                                    <h4>Core Expertise</h4>
+                                    <p>Cultivated a strong, production-level understanding of React state management, Java servlet lifecycles, and Spring Boot REST APIs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-accent">&lt;</span>Trilochan<span class="logo-accent">/&gt;</span>
+            </a>
+            <p class="footer-thankyou">Thank you for visiting my portfolio.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="sep">•</span>
+                <a href="https://www.linkedin.com/in/trilochan-landekar-06226638b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <span class="sep">•</span>
+                <a href="https://www.instagram.com/tril.ochan97?igsh=cmVsM2xwaGZpc2F2" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+            <div class="footer-meta">
+                <p>Made with <span class="heart-pulse">❤️</span> by Trilochan Landekar</p>
+                <p class="copyright">© 2026 All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn hidden" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- JavaScript script file -->
+    <script src="script.js?v=1.0.2"></script>
+</body>
+</html>

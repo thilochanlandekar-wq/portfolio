@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilochan Landekar | Full Stack Developer Portfolio</title>
+    <meta name="description" content="Explore the portfolio of Trilochan Landekar, a passionate Full Stack Developer specializing in React.js, Java, Spring Boot, and MySQL. Browse my projects, skills, and experience.">
+    <meta name="keywords" content="Trilochan Landekar, Full Stack Developer, React Developer, Java Developer, Spring Boot, MySQL, Portfolio, Computer Engineering">
+    <meta name="author" content="Trilochan Landekar">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Trilochan Landekar | Full Stack Developer Portfolio">
+    <meta property="og:description" content="Explore the portfolio of Trilochan Landekar, a passionate Full Stack Developer specializing in React.js, Java, Spring Boot, and MySQL.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+    <!-- Particle Background Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="header-container container">
+            <a href="index.html" class="logo" id="header-logo">
+                <span class="logo-accent">&lt;</span>Trilochan<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-secondary nav-cta">Hire Me</a>
+                <!-- Mobile Menu Button -->
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation Menu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12" id="line-mid"></line>
+                        <line x1="3" y1="6" x2="21" y2="6" id="line-top"></line>
+                        <line x1="3" y1="18" x2="21" y2="18" id="line-bot"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="hero-container container">
+                <div class="hero-content">
+                    <span class="badge hero-badge">Available for Internships & Projects</span>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Trilochan Landekar</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        I am a <span id="typewriter-text" class="typewriter"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        I build modern, responsive, and user-friendly web applications using React, Java, Spring Boot, and MySQL. I enjoy creating real-world projects and continuously learning new technologies.
+                    </p>
+                    
+                    <div class="hero-meta">
+                        <span class="hero-meta-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="meta-icon"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            Maharashtra, India
+                        </span>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a href="contact.html" class="btn btn-primary">
+                            <span>Hire Me</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        </a>
+                        <!-- Resume download link (will perform browser download simulation) -->
+                        <a href="#" class="btn btn-outline" id="download-resume-btn">
+                            <span>Download Resume</span>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/trilochan-landekar-06226638b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                        </a>
+                        <a href="https://www.instagram.com/tril.ochan97?igsh=cmVsM2xwaGZpc2F2" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thilochanlandekar@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image-container">
+                    <div class="hero-blob-wrapper">
+                        <!-- Abstract design element container -->
+                        <div class="hero-avatar-glow"></div>
+                        <div class="hero-avatar">
+                            <img src="profile-avatar.jpg" alt="Trilochan Landekar Profile" class="avatar-img" id="avatar-image">
+                            <!-- Overlaying design elements -->
+                            <div class="avatar-badge code-badge">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="badge-icon"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                                <span>React & Java</span>
+                            </div>
+                            <div class="avatar-badge speed-badge">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="badge-icon"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+                                <span>Builder</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-accent">&lt;</span>Trilochan<span class="logo-accent">/&gt;</span>
+            </a>
+            <p class="footer-thankyou">Thank you for visiting my portfolio.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="sep">•</span>
+                <a href="https://www.linkedin.com/in/trilochan-landekar-06226638b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <span class="sep">•</span>
+                <a href="https://www.instagram.com/tril.ochan97?igsh=cmVsM2xwaGZpc2F2" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+            <div class="footer-meta">
+                <p>Made with <span class="heart-pulse">❤️</span> by Trilochan Landekar</p>
+                <p class="copyright">© 2026 All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn hidden" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- JavaScript script file -->
+    <script src="script.js?v=1.0.2"></script>
+</body>
+</html>

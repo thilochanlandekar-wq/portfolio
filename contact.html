@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Trilochan Landekar</title>
+    <meta name="description" content="Get in touch with Trilochan Landekar for web development internships, projects, or collaborations. Send a message or connect online.">
+    <meta name="keywords" content="Trilochan Landekar, Contact, Contact Form, Software Developer, Email, Phone Number, Maharashtra, India">
+    <meta name="author" content="Trilochan Landekar">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+    <!-- Particle Background Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="header-container container">
+            <a href="index.html" class="logo" id="header-logo">
+                <span class="logo-accent">&lt;</span>Trilochan<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-secondary nav-cta">Hire Me</a>
+                <!-- Mobile Menu Button -->
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation Menu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12" id="line-mid"></line>
+                        <line x1="3" y1="6" x2="21" y2="6" id="line-top"></line>
+                        <line x1="3" y1="18" x2="21" y2="18" id="line-bot"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Contact Me Section -->
+        <section id="contact" class="section contact-section reveal revealed">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Let's Connect</span>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Left Contact Info Details -->
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p class="contact-intro-text">
+                            I'm always open to internship opportunities, freelance projects, and full-time software development roles. Let's create something exceptional together!
+                        </p>
+
+                        <div class="contact-details-list">
+                            <div class="contact-detail-item">
+                                <div class="detail-icon bg-cyan">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                </div>
+                                <div class="detail-text">
+                                    <span class="detail-label">Email Me</span>
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thilochanlandekar@gmail.com" target="_blank" rel="noopener noreferrer" class="detail-value">thilochanlandekar@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="detail-icon bg-purple">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                </div>
+                                <div class="detail-text">
+                                    <span class="detail-label">Call Me</span>
+                                    <a href="tel:+919284451501" class="detail-value">+91 9284451501</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="detail-icon bg-pink">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                                </div>
+                                <div class="detail-text">
+                                    <span class="detail-label">Location</span>
+                                    <span class="detail-value">Maharashtra, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-socials-wrapper">
+                            <h4>Connect Online</h4>
+                            <div class="social-links contact-social-row">
+                                <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                </a>
+                                <a href="https://www.linkedin.com/in/trilochan-landekar-06226638b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                                </a>
+                                <a href="https://www.instagram.com/tril.ochan97?igsh=cmVsM2xwaGZpc2F2" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Contact Form -->
+                    <div class="contact-form-wrapper glass-card">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="form-name">Full Name</label>
+                                <div class="input-wrapper">
+                                    <input type="text" id="form-name" name="name" required placeholder="Enter your name">
+                                    <span class="focus-border"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-email">Email Address</label>
+                                <div class="input-wrapper">
+                                    <input type="email" id="form-email" name="email" required placeholder="Enter your email address">
+                                    <span class="focus-border"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <div class="input-wrapper">
+                                    <input type="text" id="form-subject" name="subject" required placeholder="Project enquiry, internship, etc.">
+                                    <span class="focus-border"></span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <div class="input-wrapper">
+                                    <textarea id="form-message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                                    <span class="focus-border"></span>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block submit-btn" id="submit-button">
+                                <span class="submit-text">Send Message</span>
+                                <span class="submit-spinner hidden"></span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="btn-icon send-icon"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-accent">&lt;</span>Trilochan<span class="logo-accent">/&gt;</span>
+            </a>
+            <p class="footer-thankyou">Thank you for visiting my portfolio.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="sep">•</span>
+                <a href="https://www.linkedin.com/in/trilochan-landekar-06226638b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <span class="sep">•</span>
+                <a href="https://www.instagram.com/tril.ochan97?igsh=cmVsM2xwaGZpc2F2" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+            <div class="footer-meta">
+                <p>Made with <span class="heart-pulse">❤️</span> by Trilochan Landekar</p>
+                <p class="copyright">© 2026 All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn hidden" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- JavaScript script file -->
+    <script src="script.js?v=1.0.2"></script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects | Trilochan Landekar</title>
+    <meta name="description" content="Browse the projects built by Trilochan Landekar, including AI Website Builder, Student Management System, AI Chatbot, and more.">
+    <meta name="keywords" content="Trilochan Landekar, Projects, React Projects, Java Projects, AI Projects, Full Stack Portfolio">
+    <meta name="author" content="Trilochan Landekar">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+    <!-- Particle Background Canvas -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="header-container container">
+            <a href="index.html" class="logo" id="header-logo">
+                <span class="logo-accent">&lt;</span>Trilochan<span class="logo-accent">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="skills.html" class="nav-link">Skills</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="experience.html" class="nav-link">Experience</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="contact.html" class="btn btn-secondary nav-cta">Hire Me</a>
+                <!-- Mobile Menu Button -->
+                <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle Navigation Menu">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12" id="line-mid"></line>
+                        <line x1="3" y1="6" x2="21" y2="6" id="line-top"></line>
+                        <line x1="3" y1="18" x2="21" y2="18" id="line-bot"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section reveal revealed">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Showcasing My Work</span>
+                    <h2 class="section-title">Projects</h2>
+                    <div class="header-line"></div>
+                </div>
+
+                <!-- Project Filters -->
+                <div class="projects-filter-container">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="react">React / AI</button>
+                    <button class="filter-btn" data-filter="java">Java / Spring Boot</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend / HTML5</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    <!-- Project 1: AI Website Builder -->
+                    <div class="project-card glass-card reveal-card" data-category="react java">
+                        <div class="project-img-wrapper">
+                            <div class="project-placeholder-bg grad-mesh-ai">
+                                <span class="placeholder-icon">🤖💻</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag-pill">React</span>
+                                <span class="tag-pill">Spring Boot</span>
+                                <span class="tag-pill">Gemini AI</span>
+                                <span class="tag-pill">MySQL</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>AI Website Builder</h3>
+                            <p class="project-short-desc">
+                                An AI-powered website builder that generates complete websites based on user prompts using Gemini AI.
+                            </p>
+                            <div class="project-features-list">
+                                <span>✦ AI Website Generation</span>
+                                <span>✦ Responsive UI</span>
+                                <span>✦ Modern Design</span>
+                                <span>✦ Live Preview</span>
+                                <span>✦ Dynamic Content</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn btn-outline btn-sm open-modal-btn" data-project="ai-builder">View Details</button>
+                                <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Student Management System -->
+                    <div class="project-card glass-card reveal-card" data-category="java">
+                        <div class="project-img-wrapper">
+                            <div class="project-placeholder-bg grad-mesh-student">
+                                <span class="placeholder-icon">🎓📊</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag-pill">Java</span>
+                                <span class="tag-pill">Servlet</span>
+                                <span class="tag-pill">JDBC</span>
+                                <span class="tag-pill">MySQL</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Student Management System</h3>
+                            <p class="project-short-desc">
+                                A web application to manage student records including adding, updating, deleting, and viewing student information.
+                            </p>
+                            <div class="project-features-list">
+                                <span>✦ Add Student</span>
+                                <span>✦ Update Student</span>
+                                <span>✦ Delete Student</span>
+                                <span>✦ Search Student</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn btn-outline btn-sm open-modal-btn" data-project="student-sys">View Details</button>
+                                <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: AI ChatBot -->
+                    <div class="project-card glass-card reveal-card" data-category="frontend">
+                        <div class="project-img-wrapper">
+                            <div class="project-placeholder-bg grad-mesh-chat">
+                                <span class="placeholder-icon">💬🤖</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag-pill">HTML</span>
+                                <span class="tag-pill">CSS</span>
+                                <span class="tag-pill">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>AI ChatBot</h3>
+                            <p class="project-short-desc">
+                                A chatbot that answers user questions through a clean and interactive interface.
+                            </p>
+                            <div class="project-features-list">
+                                <span>✦ Live Chat</span>
+                                <span>✦ Responsive Design</span>
+                                <span>✦ Modern UI</span>
+                                <span>✦ Fast Responses</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn btn-outline btn-sm open-modal-btn" data-project="chatbot">View Details</button>
+                                <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Personal Portfolio Website -->
+                    <div class="project-card glass-card reveal-card" data-category="react frontend">
+                        <div class="project-img-wrapper">
+                            <div class="project-placeholder-bg grad-mesh-portfolio">
+                                <span class="placeholder-icon">✨💻</span>
+                            </div>
+                            <div class="project-tags">
+                                <span class="tag-pill">React</span>
+                                <span class="tag-pill">CSS</span>
+                                <span class="tag-pill">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Personal Portfolio Website</h3>
+                            <p class="project-short-desc">
+                                A premium personal portfolio showcasing skills, projects, education, and experience.
+                            </p>
+                            <div class="project-features-list">
+                                <span>✦ Animated UI</span>
+                                <span>✦ Responsive Layout</span>
+                                <span>✦ Dark Theme</span>
+                                <span>✦ Contact Form</span>
+                                <span>✦ Resume Download</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn btn-outline btn-sm open-modal-btn" data-project="portfolio">View Details</button>
+                                <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GitHub Repository">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="link-icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-accent">&lt;</span>Trilochan<span class="logo-accent">/&gt;</span>
+            </a>
+            <p class="footer-thankyou">Thank you for visiting my portfolio.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/thilochanlandekar-wq/sam-studio" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <span class="sep">•</span>
+                <a href="https://www.linkedin.com/in/trilochan-landekar-06226638b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <span class="sep">•</span>
+                <a href="https://www.instagram.com/tril.ochan97?igsh=cmVsM2xwaGZpc2F2" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+            <div class="footer-meta">
+                <p>Made with <span class="heart-pulse">❤️</span> by Trilochan Landekar</p>
+                <p class="copyright">© 2026 All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Details Modal (Single Template for dynamic content Injection) -->
+    <div id="project-modal" class="modal-overlay hidden" aria-modal="true" role="dialog">
+        <div class="modal-card glass-card">
+            <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Project Modal">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+            </button>
+            <div class="modal-body" id="modal-body-content">
+                <!-- Injected via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Back to Top Button -->
+    <button id="back-to-top" class="back-to-top-btn hidden" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- JavaScript script file -->
+    <script src="script.js?v=1.0.2"></script>
+</body>
+</html>
